@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView style="@style/CardStyle">
+
+                <LinearLayout style="@style/LinearStyle">
+
+                    <ImageView
+                        style="@style/Icon"
+                        android:background="@drawable/circle_background_one"
+                        android:src="@drawable/ic_restaurant_black_24dp" />
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="@string/restaurant" />
+
+                    <View style="@style/SingleLine" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:text="@string/restaurant_sub" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView style="@style/CardStyle">
+
+                <LinearLayout style="@style/LinearStyle">
+
+                    <ImageView
+                        style="@style/Icon"
+                        android:background="@drawable/circle_background_two"
+                        android:src="@drawable/ic_local_hotel_black_24dp" />
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="@string/hotel" />
+
+                    <View style="@style/SingleLine" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:text="@string/hotel_sub" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView style="@style/CardStyle">
+
+                <LinearLayout style="@style/LinearStyle">
+
+                    <ImageView
+                        style="@style/Icon"
+                        android:background="@drawable/circle_background_three"
+                        android:src="@drawable/ic_local_hospital_black_24dp" />
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="@string/hospital" />
+
+                    <View style="@style/SingleLine" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:text="@string/hospital_sub" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView style="@style/CardStyle">
+
+                <LinearLayout style="@style/LinearStyle">
+
+                    <ImageView
+                        style="@style/Icon"
+                        android:background="@drawable/circle_background_four"
+                        android:src="@drawable/ic_local_airport_black_24dp" />
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="@string/airport" />
+
+                    <View style="@style/SingleLine" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:text="@string/airport_sub" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView style="@style/CardStyle">
+
+                <LinearLayout style="@style/LinearStyle">
+
+                    <ImageView
+                        style="@style/Icon"
+                        android:background="@drawable/circle_background_five"
+                        android:src="@drawable/ic_directions_bus_black_24dp" />
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="@string/bus" />
+
+                    <View style="@style/SingleLine" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:text="@string/bus_sub" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView style="@style/CardStyle">
+
+                <LinearLayout style="@style/LinearStyle">
+
+                    <ImageView
+                        style="@style/Icon"
+                        android:background="@drawable/circle_background_six"
+                        android:src="@drawable/ic_train_black_24dp" />
+
+                    <TextView
+                        style="@style/Title"
+                        android:text="@string/train" />
+
+                    <View style="@style/SingleLine" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:text="@string/train_sub" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

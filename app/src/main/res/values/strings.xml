@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Modern Dashboard</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="restaurant_sub">Find the nearest restaurant</string>
+    <string name="hotel">Hotel</string>
+    <string name="hotel_sub">Find the nearest local hotel</string>
+    <string name="hospital">Hospital</string>
+    <string name="hospital_sub">Find the nearest hospital</string>
+    <string name="airport_sub">Find the nearest airport</string>
+    <string name="airport">Airport</string>
+    <string name="bus_sub">Find the nearest bus terminal</string>
+    <string name="bus">Bus</string>
+    <string name="train">Train</string>
+    <string name="train_sub">Find the nearest train station</string>
+</resources>
